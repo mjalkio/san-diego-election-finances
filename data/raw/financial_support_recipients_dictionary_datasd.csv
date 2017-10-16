@@ -1,0 +1,8 @@
+column_name,description
+reported_name,"Name of recipient as it appears in the recipient_name column of the transactions data. Due to human error in reporting campaign finance transactions, a misspelling or inconsistency would cause a recipient to be listed multiple times for the same year."
+year_reported,"The year during which this candidate received financial support. Any one candidate may have received support during multiple years, and even be listed multiple times for the same year if the name was inconsistent or misspelled. The candidate is listed for every variation of name that appears within a year. The year corresponds to the year in the filenames of the transactions data."
+candidate_or_measure,"If the recipient is a candidate or measure on whose behalf money was spent, or a committee with a purpose to support a specific candidate or measure, the candidate or measure is here."
+corrected_name,"The reported name, corrected for any misspellings or inconsistencies."
+committee_id,"Committee ID number, if recipient is a committee. ID numbers can be used to find committees in campaign finance databases. Depending on the committee, filings may appear in city, county or state data."
+candidate_office_sought,"If the recipient is a candidate on whose behalf money was spent, or a committee with a purpose to support a specific candidate, the office sought by this candidate is here."
+support_or_oppose,"If the recipient is a committee focused on a specific candidate or ballot measure, this column lists whether the committee supports or opposes the candidate."
