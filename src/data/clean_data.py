@@ -50,7 +50,7 @@ def get_joined_fin_dataframe():
                                                     'report_year': 'year'})
 
     interim_data_path = op.join(current_dir, '..', '..', 'data', 'interim', 'fin_support_data.csv')
-    fin_support_df.to_csv(interim_data_path)
+    fin_support_df.to_csv(interim_data_path, index=False)
     return fin_support_df
 
 if __name__ == '__main__':
